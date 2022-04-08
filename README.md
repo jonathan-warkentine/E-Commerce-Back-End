@@ -42,7 +42,7 @@ Additionally, you must store your MySQL credentials within the root directory in
 
 This API allows a user to perform basic CRUD operations on a database mocked to replicate a generic e-commerce site.
 
-For a complete walkthrough, check out *[this video link](https://youtu.be/N72LcdeueRA).* 👈
+For a complete walkthrough, check out *[this video link](https://youtu.be/NEBU_-J7WyY).* 👈
 
 &nbsp;  
 
