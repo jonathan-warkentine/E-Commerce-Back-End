@@ -24,7 +24,15 @@ A simple demonstration of Sequelize ORM database mapping and RESTful API routes 
 ---
 ## Installation:
 
-You must have node installed on your machine in order to run this app. Run the command `npm i` to install the inquirer and fs dependencies.
+You must have node installed on your machine in order to run this app. Run the command `npm i` to install all dependencies, including:
+- Sequelize
+- Dotenv
+- MySQL2
+- Express 
+
+Additionally, you must store your MySQL credentials within the root directory in a .env file (include values for DB_USER, DB_PW, and DB_NAME='ecommerce_db').
+
+
 
 &nbsp;  
 
@@ -32,9 +40,9 @@ You must have node installed on your machine in order to run this app. Run the c
 ## Usage:
 
 
-This app gives a series of prompts relating to the project at hand. A resulting README.md file is created within the ‘dist’ folder, within a folder with the same name as the project. Folders are automatically created where missing.
+This API allows a user to perform basic CRUD operations on a database mocked to replicate a generic e-commerce site.
 
-For a complete walkthrough, check out *[this video link](https://youtu.be/N72LcdeueRA).*
+For a complete walkthrough, check out *[this video link](https://youtu.be/N72LcdeueRA).* 👈
 
 &nbsp;  
 
